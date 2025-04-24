@@ -8,7 +8,7 @@ package praktik.geometry.bases;
  *
  * @author Lenovo
  */
-// Kelas abstrak dasar
+// Kelas abstrak 
 public abstract class Shape {
     protected String name;
 
@@ -18,7 +18,7 @@ public abstract class Shape {
         this.name = inputName;
     }
 
-    public String getName() {
+    public String getName() {// method untuk mengambil nama bentuk
         return name;
     }
 
