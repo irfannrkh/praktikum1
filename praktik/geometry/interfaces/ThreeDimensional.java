@@ -10,6 +10,6 @@ package praktik.geometry.interfaces;
  */
 //Interface untuk bentuk 3D
 public interface ThreeDimensional {
-    double getSurfaceArea();
-    double getVolume();
+    double getSurfaceArea(); // method untuk menghitung luas permukaan
+    double getVolume(); // method untuk menghitung volume
 }
