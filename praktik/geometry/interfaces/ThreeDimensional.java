@@ -8,6 +8,7 @@ package praktik.geometry.interfaces;
  *
  * @author Lenovo
  */
+//Interface untuk bentuk 3D
 public interface ThreeDimensional {
     double getSurfaceArea();
     double getVolume();
