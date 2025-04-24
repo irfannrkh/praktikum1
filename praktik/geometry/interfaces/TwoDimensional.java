@@ -8,7 +8,8 @@ package praktik.geometry.interfaces;
  *
  * @author Lenovo
  */
-//Interface untuk bentuk 2D
+
+// Interface untuk bentuk dua dimensi
 public interface TwoDimensional {
     double getArea(); // method untuk menghitung luas
     double getPerimeter(); // method untuk menghitung keliling
