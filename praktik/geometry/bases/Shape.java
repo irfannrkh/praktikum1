@@ -8,6 +8,7 @@ package praktik.geometry.bases;
  *
  * @author Lenovo
  */
+// Kelas abstrak dasar
 public abstract class Shape {
     protected String name;
 
