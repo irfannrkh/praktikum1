@@ -8,6 +8,7 @@ package praktik.geometry.interfaces;
  *
  * @author Lenovo
  */
+// Interface untuk objek yang bisa dihitung beratnya
 public interface Weightable {
     double GRAVITY = 9.8;
     double getWeight();
