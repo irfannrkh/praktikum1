@@ -10,27 +10,28 @@ import praktik.geometry.interfaces.TwoDimensional;
  *
  * @author Lenovo
  */
+//  class Circle yang merupakan subclass dari CircularShape dan mengimplementasikan interface TwoDimensional
 public class Circle extends CircularShape implements TwoDimensional {
-    public Circle() {}
+    public Circle() {}  // Konstruktor (tanpa parameter)
 
-    public Circle(double radius) {
-        this.radius = radius;
+    public Circle(double radius) {  // Konstruktor dengan parameter radius untuk menginisialisasi jari-jari lingkaran
+        this.radius = radius; // atribut radius dari superclass
     }
 
-    @Override
+    @Override // Override method getArea dari interface TwoDimensional
     public double getArea() {
-        return getPi() * radius * radius;
+        return getPi() * radius * radius; // Rumus luas lingkaran
     }
 
-    @Override
+    @Override  // Override method getPerimeter dari interface TwoDimensional
     public double getPerimeter() {
-        return 2 * getPi() * radius;
+        return 2 * getPi() * radius;  // Rumus keliling lingkaran
     }
 
     @Override
-    public void printInfo() {
-        System.out.println("Name       : Circle");
-        System.out.printf("Area       : %.2f\n", getArea());
-        System.out.printf("Perimeter  : %.2f\n", getPerimeter());
+    public void printInfo() {  // Override method printInfo untuk menampilkan informasi tentang lingkaran
+        System.out.println("Name       : Circle"); // print nama bentuk
+        System.out.printf("Area       : %.2f\n", getArea());  // print luas
+        System.out.printf("Perimeter  : %.2f\n", getPerimeter());  // print keliling
     }
 }
