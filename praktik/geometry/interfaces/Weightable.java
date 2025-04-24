@@ -11,5 +11,5 @@ package praktik.geometry.interfaces;
 // Interface untuk objek yang bisa dihitung beratnya
 public interface Weightable {
     double GRAVITY = 9.8;
-    double getWeight();
+    double getWeight();  // method untuk menghitung berat
 }
