@@ -8,7 +8,7 @@ package praktik.geometry.interfaces;
  *
  * @author Lenovo
  */
-//Interface untuk bentuk 3D
+//Interface untuk bentuk tiga dimensi
 public interface ThreeDimensional {
     double getSurfaceArea(); // method untuk menghitung luas permukaan
     double getVolume(); // method untuk menghitung volume
