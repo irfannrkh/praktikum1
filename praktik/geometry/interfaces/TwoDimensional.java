@@ -10,6 +10,6 @@ package praktik.geometry.interfaces;
  */
 //Interface untuk bentuk 2D
 public interface TwoDimensional {
-    double getArea();
-    double getPerimeter();
+    double getArea(); // method untuk menghitung luas
+    double getPerimeter(); // method untuk menghitung keliling
 }
