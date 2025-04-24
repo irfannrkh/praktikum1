@@ -8,10 +8,11 @@ package praktik.geometry.bases;
  *
  * @author Lenovo
  */
+// Kelas untuk lingkaran
 public abstract class CircularShape extends Shape {
-    protected double radius;
-    protected final int PI_NUMERATOR = 22;
-    protected final int PI_DENOMINATOR = 7;
+    protected double radius; 
+    protected final int PI_NUMERATOR = 22; // final itu tetap
+    protected final int PI_DENOMINATOR = 7; // final itu tetap
 
     public CircularShape() {}
 
