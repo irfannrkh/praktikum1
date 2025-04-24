@@ -8,19 +8,23 @@ package praktik.geometry.bases;
  *
  * @author Lenovo
  */
-// Kelas abstrak 
+// Kelas abstrak namanya shape
 public abstract class Shape {
     protected String name;
-
+    
+// Konstruktor default tanpa parameter
     public Shape() {}
 
+    // Method setter untuk mengatur nilai atribut name
     public void setName(String inputName) {
         this.name = inputName;
     }
 
-    public String getName() {// method untuk mengambil nama bentuk
+    // Method getter untuk mengambil nilai atribut name
+    public String getName() {
         return name;
     }
 
+     // Method abstrak yang wajib diimplementasikan oleh semua subclass
     public abstract void printInfo();
 }
